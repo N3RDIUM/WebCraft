@@ -11,7 +11,7 @@
 
 ## Contributors:
 <a href="https://github.com/somePythonProgrammer/WebCraft/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=somePythonProgrammer/WebCraft" />
+  <img src="https://contrib.rocks/image?repo=WebCraft-Community/WebCraft" />
 </a>
 
 Made with [contributors-img](https://contrib.rocks).
