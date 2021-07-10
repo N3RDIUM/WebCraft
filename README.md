@@ -22,6 +22,6 @@ Made with [contributors-img](https://contrib.rocks).
 
 <HR>
 
-### Poject wiki [here!](https://github.com/somePythonProgrammer/WebCraft/wiki)
-### Discuss a problem, bug or idea [here](https://github.com/somePythonProgrammer/WebCraft/discussions)
-### Any issues? discuss [here](https://github.com/somePythonProgrammer/WebCraft/issues)
+### Poject wiki [here!](https://github.com/WebCraft-Community/WebCraft/wiki)
+### Discuss a problem, bug or idea [here](https://github.com/WebCraft-Community/WebCraft/discussions)
+### Any issues? discuss [here](https://github.com/WebCraft-Community/WebCraft/issues)
