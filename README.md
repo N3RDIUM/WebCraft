@@ -1,6 +1,6 @@
 # WebCraft
 
-[Click here to play!](https://somepythonprogrammer.github.io/WebCraft/)
+[Click here to play!](https://webcraft-community.github.io/WebCraft/)
 
 ### A minecraft clone written in javascript using Three.js!
 ### This is an open-source project and is open to contributions.
