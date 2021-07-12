@@ -10,7 +10,7 @@
 <hr>
 
 ## Contributors:
-<a href="https://github.com/somePythonProgrammer/WebCraft/graphs/contributors">
+<a href="https://github.com/WebCraft-Community/WebCraft/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=WebCraft-Community/WebCraft" />
 </a>
 
