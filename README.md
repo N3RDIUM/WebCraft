@@ -1,6 +1,8 @@
 # WebCraft
 
-[Click here to play!](https://webcraft-community.github.io/WebCraft/)
+<a href="https://webcraft-community.github.io/WebCraft/">
+  <img src="https://user-images.githubusercontent.com/74598401/125244872-77dd3d80-e30d-11eb-892d-a67893afbb39.png" />
+</a>
 
 ### A minecraft clone written in javascript using Three.js!
 ### This is an open-source project and is open to contributions.
