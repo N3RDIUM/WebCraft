@@ -28,6 +28,10 @@ function onWindowResize() {
   camera.updateProjectionMatrix();
 }
 
+function remove(id) {
+  scene.remove(scene.getObjectByName(id));
+}
+
 function animate() {
   requestAnimationFrame(animate);
   renderer.render(scene, camera);
