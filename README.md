@@ -20,7 +20,7 @@ Made with [contributors-img](https://contrib.rocks).
 
 <hr>
 
-## [Contributing](https://github.com/somePythonProgrammer/WebCraft/blob/main/CONTRIBUTING.md)
+## [Contributing](https://github.com/WebCraft-Community/WebCraft/blob/main/CONTRIBUTING.md)
 
 <HR>
 
