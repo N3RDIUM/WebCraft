@@ -1,4 +1,6 @@
 # WebCraft
+![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=octocat.Spoon-Knife)
+
 
 <a href="https://webcraft-community.github.io/WebCraft/">
   <img src="https://user-images.githubusercontent.com/74598401/125244872-77dd3d80-e30d-11eb-892d-a67893afbb39.png" />
