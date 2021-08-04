@@ -1,5 +1,5 @@
 # WebCraft
-![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=octocat.Spoon-Knife)
+![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=WebCraft-Community.WebCraft)
 
 
 <a href="https://webcraft-community.github.io/WebCraft/">
