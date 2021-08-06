@@ -22,12 +22,12 @@ const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(ambientLight);
 
 const fog = new THREE.FogExp2(
-  0xffffff,
-  (density = (renderDistance * 16) / 500)
+  0xc7ffff,
+  (density = (renderDistance * 16) / 500 / 1)
 );
 scene.fog = fog;
 //console.log(fog);
-scene.background = new THREE.Color("#fff");
+scene.background = new THREE.Color("#a3fffd");
 
 window.addEventListener("resize", onWindowResize);
 function onWindowResize() {
