@@ -14,39 +14,34 @@ class Chunk {
     this.shown = false;
     this.currChunk = false;
   }
-  update() {
+  async update() {
+    let val = -2;
     for (var i in this.cubes) {
       for (var j in this.cubes[i]) {
         this.cubes[i][j].update();
       }
     }
     if (world.currPlayerChunk.x - this.position.x > renderDistance) {
-      this.position.x = world.currPlayerChunk.x + renderDistance - 1;
+      this.position.x = (await world.getMidChunk().x) + renderDistance - val;
       this.refresh_();
-    } else if (
-      world.currPlayerChunk.x - this.position.x <
-      -renderDistance
-    ) {
-      this.position.x = world.currPlayerChunk.x - renderDistance + 1;
+    } else if (world.currPlayerChunk.x - this.position.x < -renderDistance) {
+      this.position.x = (await world.getMidChunk().x) - renderDistance + val;
       this.refresh_();
     } else if (world.currPlayerChunk.z - this.position.z > renderDistance) {
-      this.position.z = world.currPlayerChunk.z + renderDistance - 1;
+      this.position.z = (await world.getMidChunk().z) + renderDistance - val;
       this.refresh_();
-    } else if (
-      world.currPlayerChunk.z - this.position.z <
-      -renderDistance
-    ) {
-      this.position.z = world.currPlayerChunk.z - renderDistance + 1;
+    } else if (world.currPlayerChunk.z - this.position.z < -renderDistance) {
+      this.position.z = (await world.getMidChunk().z) - renderDistance + val;
       this.refresh_();
     }
   }
   refresh_() {
     for (var i in this.cubes) {
       for (var j in this.cubes[i]) {
-        this.cubes[i][j].dispose()
+        this.cubes[i][j].dispose();
       }
     }
-    this.cubes.pop()
+    this.cubes.pop();
     //console.log('disposed chunk cubes at ' + this.position.x.toString() + ' ' + this.position.z.toString())
     for (var i = 0; i < 16; i++) {
       this.cubes[i] = [];
