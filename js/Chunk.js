@@ -15,23 +15,27 @@ class Chunk {
     this.currChunk = false;
   }
   async update() {
-    let val = -2;
+    let val = 0;
     for (var i in this.cubes) {
       for (var j in this.cubes[i]) {
         this.cubes[i][j].update();
       }
     }
     if (world.currPlayerChunk.x - this.position.x > renderDistance) {
-      this.position.x = (await world.getMidChunk().x) + renderDistance - val;
+      this.position.x = world.getMidChunk().position.x + renderDistance - val;
+      this.position.x = world.getMidChunk().position.x + renderDistance - val;
       this.refresh_();
     } else if (world.currPlayerChunk.x - this.position.x < -renderDistance) {
-      this.position.x = (await world.getMidChunk().x) - renderDistance + val;
+      this.position.x = world.getMidChunk().position.x - renderDistance + val;
+      this.position.x = world.getMidChunk().position.x - renderDistance + val;
       this.refresh_();
     } else if (world.currPlayerChunk.z - this.position.z > renderDistance) {
-      this.position.z = (await world.getMidChunk().z) + renderDistance - val;
+      this.position.z = world.getMidChunk().position.z + renderDistance - val;
+      this.position.z = world.getMidChunk().position.z + renderDistance - val;
       this.refresh_();
     } else if (world.currPlayerChunk.z - this.position.z < -renderDistance) {
-      this.position.z = (await world.getMidChunk().z) - renderDistance + val;
+      this.position.z = world.getMidChunk().position.z - renderDistance + val;
+      this.position.z = world.getMidChunk().position.z - renderDistance + val;
       this.refresh_();
     }
   }

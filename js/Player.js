@@ -8,7 +8,7 @@ class Player {
     this.moveBackward = false;
     this.moveRight = false;
     this.moveLeft = false;
-    this.moveSpeed = 0.8;
+    this.moveSpeed = 0.3;
     document.addEventListener(
       "keyup",
       (e) => {

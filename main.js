@@ -45,7 +45,7 @@ function animate() {
   requestAnimationFrame(animate);
   renderer.render(scene, camera);
   world.play();
-  console.log(world.getMidChunk().position);
+  //console.log(world.getMidChunk().position);
   //planeMesh.rotation.x += 0.03;
   //planeMesh.rotation.y += 0.04;
   //planeMesh.rotation.z += 0.02;

@@ -42,5 +42,7 @@ class World {
     this.midChunk = this.chunks[renderDistance][renderDistance];
     return this.chunks[renderDistance][renderDistance];
   }
-  update() {}
+  update() {
+    //this.midChunk = this.getMidChunk();
+  }
 }
