@@ -1,9 +1,8 @@
 # WebCraft
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=WebCraft-Community.WebCraft)
 
-
 <a href="https://webcraft-community.github.io/WebCraft/">
-  <img src="https://user-images.githubusercontent.com/74598401/125244872-77dd3d80-e30d-11eb-892d-a67893afbb39.png" />
+  <img src="https://user-images.githubusercontent.com/74598401/128462836-44ade92b-049b-4c64-ac59-a61f0bc39268.png" />
 </a>
 
 ### A minecraft clone written in javascript using Three.js!
