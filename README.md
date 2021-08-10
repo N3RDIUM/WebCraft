@@ -30,3 +30,7 @@ Made with [contributors-img](https://contrib.rocks).
 ### Poject wiki [here!](https://github.com/WebCraft-Community/WebCraft/wiki)
 ### Discuss a problem, bug or idea [here](https://github.com/WebCraft-Community/WebCraft/discussions)
 ### Any issues? discuss [here](https://github.com/WebCraft-Community/WebCraft/issues)
+
+## Credits
+
+### This game uses the C-TETRA texture pack, which is NOT mine.
