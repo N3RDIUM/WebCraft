@@ -1,4 +1,4 @@
-//WebCraft
+//WebCraftf
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   75,
@@ -8,6 +8,7 @@ const camera = new THREE.PerspectiveCamera(
 );
 const renderer = new THREE.WebGLRenderer({
   canvas: document.querySelector("#bg"),
+  antialias: true
 });
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
