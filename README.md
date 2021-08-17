@@ -37,4 +37,4 @@ Made with [contributors-img](https://contrib.rocks).
 
 ## Credits
 
-### This game will use the C-TETRA texture pack, which is NOT mine.
+### This game will use the C-TETRA texture pack, which is NOT ours.
