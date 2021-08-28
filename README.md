@@ -15,14 +15,19 @@
 ### A minecraft clone written in javascript using Three.js!
 <hr>
 
-## Contributors:
+## [Contributing](https://github.com/WebCraft-Community/WebCraft/blob/main/CONTRIBUTING.md)
+1. fork this repository.
+2. code.
+3. create a pull request.
+
+## Contributors
 <a href="https://github.com/WebCraft-Community/WebCraft/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=WebCraft-Community/WebCraft" />
 </a>
 
 Made with [contributors-img](https://contrib.rocks).
 
-## [Contributing](https://github.com/WebCraft-Community/WebCraft/blob/main/CONTRIBUTING.md)
+<hr>
 
 ### Poject wiki [here!](https://github.com/WebCraft-Community/WebCraft/wiki)
 ### Discuss a problem, bug or idea [here](https://github.com/WebCraft-Community/WebCraft/discussions)
