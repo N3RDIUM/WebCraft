@@ -1,0 +1,2 @@
+- name: Issue Bot
+  uses: andymckay/labeler@1.0.3
