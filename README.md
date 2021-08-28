@@ -22,11 +22,7 @@
 
 Made with [contributors-img](https://contrib.rocks).
 
-<hr>
-
 ## [Contributing](https://github.com/WebCraft-Community/WebCraft/blob/main/CONTRIBUTING.md)
-
-<HR>
 
 ### Poject wiki [here!](https://github.com/WebCraft-Community/WebCraft/wiki)
 ### Discuss a problem, bug or idea [here](https://github.com/WebCraft-Community/WebCraft/discussions)
