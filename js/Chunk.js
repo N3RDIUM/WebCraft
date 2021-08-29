@@ -24,34 +24,42 @@ class Chunk {
     if (world.currPlayerChunk.x - this.position.x > renderDistance) {
       this.position.x = world.getMidChunk().position.x + renderDistance - val;
       this.position.x = world.getMidChunk().position.x + renderDistance - val;
-      this.refresh_();
+      setTimeout(() => {
+        this.refresh_(this);
+      }, Math.random(50, 150));
     } else if (world.currPlayerChunk.x - this.position.x < -renderDistance) {
       this.position.x = world.getMidChunk().position.x - renderDistance + val;
       this.position.x = world.getMidChunk().position.x - renderDistance + val;
-      this.refresh_();
+      setTimeout(() => {
+        this.refresh_(this);
+      }, Math.random(50, 150));
     } else if (world.currPlayerChunk.z - this.position.z > renderDistance) {
       this.position.z = world.getMidChunk().position.z + renderDistance - val;
       this.position.z = world.getMidChunk().position.z + renderDistance - val;
-      this.refresh_();
+      setTimeout(() => {
+        this.refresh_(this);
+      }, Math.random(50, 150));
     } else if (world.currPlayerChunk.z - this.position.z < -renderDistance) {
       this.position.z = world.getMidChunk().position.z - renderDistance + val;
       this.position.z = world.getMidChunk().position.z - renderDistance + val;
-      this.refresh_();
+      setTimeout(() => {
+        this.refresh_(this);
+      }, Math.random(50, 150));
     }
   }
-  refresh_() {
-    for (var i in this.cubes) {
-      for (var j in this.cubes[i]) {
-        this.cubes[i][j].dispose();
+  refresh_(that) {
+    for (var i in that.cubes) {
+      for (var j in that.cubes[i]) {
+        that.cubes[i][j].dispose();
       }
     }
-    this.cubes.pop();
-    //console.log('disposed chunk cubes at ' + this.position.x.toString() + ' ' + this.position.z.toString())
+    that.cubes.pop();
+    //console.log('disposed chunk cubes at ' + that.position.x.toString() + ' ' +that.position.z.toString())
     for (var i = 0; i < 16; i++) {
-      this.cubes[i] = [];
+      that.cubes[i] = [];
       for (var j = 0; j < 16; j++) {
-        this.cubes[i].push(
-          new Block(i + this.position.x * 16, j + this.position.z * 16, this)
+        that.cubes[i].push(
+          new Block(i + that.position.x * 16, j + that.position.z * 16, that)
         );
       }
     }
