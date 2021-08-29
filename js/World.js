@@ -20,10 +20,11 @@ class World {
   }
   play() {
     this.player.update();
-    this.update();
+    this.getMidChunk();
     for (var i in this.chunks) {
       for (var j in this.chunks[i]) {
         this.chunks[i][j].update();
+        this.chunks[i][j].updateBlocks();
       }
     }
   }
@@ -41,8 +42,5 @@ class World {
     //console.log(this.chunks);
     this.midChunk = this.chunks[renderDistance][renderDistance];
     return this.chunks[renderDistance][renderDistance];
-  }
-  update() {
-    //this.midChunk = this.getMidChunk();
   }
 }

@@ -16,35 +16,26 @@ class Chunk {
   }
   async update() {
     let val = 0;
-    for (var i in this.cubes) {
-      for (var j in this.cubes[i]) {
-        this.cubes[i][j].update();
-      }
-    }
     if (world.currPlayerChunk.x - this.position.x > renderDistance) {
-      this.position.x = world.getMidChunk().position.x + renderDistance - val;
-      this.position.x = world.getMidChunk().position.x + renderDistance - val;
+      this.position.x = world.midChunk.position.x + renderDistance - val;
       setTimeout(() => {
         this.refresh_(this);
-      }, Math.random(50, 150));
+      }, Math.round(Math.random(10, 150)));
     } else if (world.currPlayerChunk.x - this.position.x < -renderDistance) {
-      this.position.x = world.getMidChunk().position.x - renderDistance + val;
-      this.position.x = world.getMidChunk().position.x - renderDistance + val;
+      this.position.x = world.midChunk.position.x - renderDistance + val;
       setTimeout(() => {
         this.refresh_(this);
-      }, Math.random(50, 150));
+      }, Math.round(Math.random(10, 150)));
     } else if (world.currPlayerChunk.z - this.position.z > renderDistance) {
-      this.position.z = world.getMidChunk().position.z + renderDistance - val;
-      this.position.z = world.getMidChunk().position.z + renderDistance - val;
+      this.position.z = world.midChunk.position.z + renderDistance - val;
       setTimeout(() => {
         this.refresh_(this);
-      }, Math.random(50, 150));
+      }, Math.round(Math.random(10, 150)));
     } else if (world.currPlayerChunk.z - this.position.z < -renderDistance) {
-      this.position.z = world.getMidChunk().position.z - renderDistance + val;
-      this.position.z = world.getMidChunk().position.z - renderDistance + val;
+      this.position.z = world.midChunk.position.z - renderDistance + val;
       setTimeout(() => {
         this.refresh_(this);
-      }, Math.random(50, 150));
+      }, Math.round(Math.random(10, 150)));
     }
   }
   refresh_(that) {
@@ -61,6 +52,13 @@ class Chunk {
         that.cubes[i].push(
           new Block(i + that.position.x * 16, j + that.position.z * 16, that)
         );
+      }
+    }
+  }
+  updateBlocks() {
+    for (var i in this.cubes) {
+      for (var j in this.cubes[i]) {
+        this.cubes[i][j].update();
       }
     }
   }
