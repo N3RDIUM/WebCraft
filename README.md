@@ -7,6 +7,7 @@
 [![Join the chat at https://gitter.im/WebCraft_Org/community](https://badges.gitter.im/WebCraft_Org/community.svg)](https://gitter.im/WebCraft_Org/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=WebCraft-Community.WebCraft)
 [![CodeFactor](https://www.codefactor.io/repository/github/webcraft-community/webcraft/badge)](https://www.codefactor.io/repository/github/webcraft-community/webcraft)
+[![DeepSource](https://deepsource.io/gh/TheWebCrafters/WebCraft.svg/?label=active+issues&show_trend=true&token=EnrWE64qLBBvvbSb-1obVxxU)](https://deepsource.io/gh/TheWebCrafters/WebCraft/?ref=repository-badge)
 
 <a href="https://webcraft-community.github.io/WebCraft/">
   <img src="https://user-images.githubusercontent.com/74598401/128462836-44ade92b-049b-4c64-ac59-a61f0bc39268.png" />
