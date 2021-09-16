@@ -33954,11 +33954,11 @@
 			const renderer = this._renderer;
 
 			if (texture.isCubeTexture) {
-				if (this._cubemapShader == null) {
+				if (this._cubemapShader === null) {
 					this._cubemapShader = _getCubemapShader();
 				}
 			} else {
-				if (this._equirectShader == null) {
+				if (this._equirectShader === null) {
 					this._equirectShader = _getEquirectShader();
 				}
 			}
