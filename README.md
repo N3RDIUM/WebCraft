@@ -1,7 +1,7 @@
 # WebCraft
 
 ### 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
-#### You will not see many commits because we are working on a HUGE update!
+#### This project is under risk because of the limitations of a web browser!
 ### 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
 
 [![Join the chat at https://gitter.im/WebCraft_Org/community](https://badges.gitter.im/WebCraft_Org/community.svg)](https://gitter.im/WebCraft_Org/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
