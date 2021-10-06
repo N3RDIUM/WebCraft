@@ -9,7 +9,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/TheWebCrafters/webcraft/badge)](https://www.codefactor.io/repository/github/webcraft-community/webcraft)
 [![DeepSource](https://deepsource.io/gh/TheWebCrafters/WebCraft.svg/?label=active+issues&show_trend=true&token=EnrWE64qLBBvvbSb-1obVxxU)](https://deepsource.io/gh/TheWebCrafters/WebCraft/?ref=repository-badge)
 
-<a href="https://webcraft-community.github.io/WebCraft/">
+<a href="https://thewebcrafters.github.io/WebCraft/">
   <img src="https://user-images.githubusercontent.com/74598401/128462836-44ade92b-049b-4c64-ac59-a61f0bc39268.png" />
 </a>
 
