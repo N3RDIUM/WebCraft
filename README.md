@@ -1,9 +1,5 @@
 # WebCraft
 
-### 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
-#### This project is under risk because of the limitations of a web browser!
-### 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
-
 [![Join the chat at https://gitter.im/WebCraft_Org/community](https://badges.gitter.im/WebCraft_Org/community.svg)](https://gitter.im/WebCraft_Org/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=WebCraft-Community.WebCraft)
 [![CodeFactor](https://www.codefactor.io/repository/github/TheWebCrafters/webcraft/badge)](https://www.codefactor.io/repository/github/webcraft-community/webcraft)
