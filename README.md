@@ -9,7 +9,7 @@
   <img src="https://user-images.githubusercontent.com/74598401/128462836-44ade92b-049b-4c64-ac59-a61f0bc39268.png" />
 </a>
 
-### A minecraft clone written in javascript using Three.js!
+### A terrain generator written in javascript using Three.js!
 <hr>
 
 ## [Contributing](https://github.com/WebCraft-Community/WebCraft/blob/main/CONTRIBUTING.md)
