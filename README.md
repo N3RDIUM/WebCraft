@@ -5,30 +5,30 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/TheWebCrafters/webcraft/badge)](https://www.codefactor.io/repository/github/webcraft-community/webcraft)
 [![DeepSource](https://deepsource.io/gh/TheWebCrafters/WebCraft.svg/?label=active+issues&show_trend=true&token=EnrWE64qLBBvvbSb-1obVxxU)](https://deepsource.io/gh/TheWebCrafters/WebCraft/?ref=repository-badge)
 
-<a href="https://thewebcrafters.github.io/WebCraft/">
+<a href="https://SubNerd.github.io/WebCraft/">
   <img src="https://user-images.githubusercontent.com/74598401/128462836-44ade92b-049b-4c64-ac59-a61f0bc39268.png" />
 </a>
 
 ### A terrain generator written in javascript using Three.js!
 <hr>
 
-## [Contributing](https://github.com/WebCraft-Community/WebCraft/blob/main/CONTRIBUTING.md)
+## [Contributing](https://github.com/SubNerd/WebCraft/blob/main/CONTRIBUTING.md)
 1. fork this repository.
 2. code.
 3. create a pull request.
 
 ## Contributors
-<a href="https://github.com/WebCraft-Community/WebCraft/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=WebCraft-Community/WebCraft" />
+<a href="https://github.com/SubNerd/WebCraft/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SubNerd/WebCraft" />
 </a>
 
 Made with [contributors-img](https://contrib.rocks).
 
 <hr>
 
-### Poject wiki [here!](https://github.com/WebCraft-Community/WebCraft/wiki)
-### Discuss a problem, bug or idea [here](https://github.com/WebCraft-Community/WebCraft/discussions)
-### Any issues? discuss [here](https://github.com/WebCraft-Community/WebCraft/issues)
+### Poject wiki [here!](https://github.com/SubNerd/WebCraft/wiki)
+### Discuss a problem, bug or idea [here](https://github.com/SubNerd/WebCraft/discussions)
+### Any issues? discuss [here](https://github.com/SubNerd/WebCraft/issues)
 
 ## Credits
 
